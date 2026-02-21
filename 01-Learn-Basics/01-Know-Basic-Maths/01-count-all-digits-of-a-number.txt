@@ -1,0 +1,5 @@
+# Strivers Link
+https://takeuforward.org/data-structure/count-digits-in-a-number/
+
+# Leetcode Practice Problem Based on this Question
+https://leetcode.com/problems/count-the-digits-that-divide-a-number/description/

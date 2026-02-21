@@ -1,0 +1,5 @@
+# Strivers Question Link:
+https://takeuforward.org/maths/reverse-digits-of-a-number
+
+# Leetcode Practice Question Link
+https://takeuforward.org/maths/reverse-digits-of-a-number
