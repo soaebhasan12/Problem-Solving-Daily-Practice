@@ -1,0 +1,6 @@
+# Practice Question of LeetCode:
+
+1️⃣ LeetCode 507 – Perfect Number
+2️⃣ LeetCode 1952 – Three Divisors
+3️⃣ LeetCode 1362 – Closest Divisors
+4️⃣ LeetCode 2427 – Number of Common Factors
