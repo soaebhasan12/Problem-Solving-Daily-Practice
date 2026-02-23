@@ -1,0 +1,170 @@
+# Practice Question of LeetCode:
+
+🟢 Practice Questions:
+
+1️⃣ LeetCode 204 – Count Primes
+(Concept: prime checking + optimization)
+
+2️⃣ LeetCode 263 – Ugly Number
+(Prime factor concept indirectly use hota hai)
+
+3️⃣ LeetCode 231 – Power of Two
+(Divisibility + factor pattern)
+
+4️⃣ LeetCode 2520 – Count the Digits That Divide a Number
+(Divisibility practice)
+
+5️⃣ LeetCode 1952 – Three Divisors
+(Prime square insight)
+
+
+
+
+
+# Inshight of this question:
+
+---
+
+# 🧠 🔥 Core Concept You Must Never Forget
+
+## 1️⃣ Prime ka real meaning
+
+Prime =
+• Exactly 2 divisors
+• 1 and itself
+
+Composite =
+• 1 aur itself ke alawa koi aur divisor mil jaye
+
+Ye base definition kabhi confuse nahi honi chahiye.
+
+---
+
+## 2️⃣ Prime Check ka Mathematical Secret
+
+👉 Agar n composite hai
+to n = a × b
+
+👉 Dono a aur b √n se bade nahi ho sakte
+
+Isliye:
+
+At least ek factor ≤ √n hoga.
+
+👉 Isliye √n tak check karna enough hai.
+
+Ye sabse important theorem hai is topic ka.
+
+---
+
+## 3️⃣ Correct Prime Loop Pattern
+
+Loop ka purpose:
+
+Possible small factors check karna.
+
+Condition inside loop:
+
+`n % i == 0`
+
+NOT:
+
+`i*i <= n` (ye loop limit ke liye hota hai)
+
+Ye difference tum future me confuse nahi karoge.
+
+---
+
+## 4️⃣ Edge Cases (Exam / Interview Important)
+
+• n ≤ 1 → Not prime
+• 2 → Prime
+• Even number > 2 → Not prime
+
+Ye reflex develop karo.
+
+---
+
+## 5️⃣ Time Complexity Insight
+
+Brute force → O(n)
+Optimized → O(√n)
+
+Ye jump bahut important hai.
+
+---
+
+## 6️⃣ Common Mistake You Made (Important Reflection)
+
+Tumne:
+
+`if i*i <= n: return False`
+
+Likha.
+
+Mistake kya thi?
+
+Tumne loop boundary logic ko divisor condition bana diya.
+
+Lesson:
+
+👉 Loop condition aur divisibility condition alag cheezein hain.
+
+Isko bold me notebook me likho.
+
+---
+
+# 📒 Short Notebook Version (Direct Copy Kar Sakte Ho)
+
+---
+
+### PRIME NUMBER – CORE NOTES
+
+Definition:
+Prime number has exactly 2 divisors → 1 and itself.
+
+Key Property:
+If n is composite → at least one divisor ≤ √n.
+
+Therefore:
+To check prime, test divisibility from 2 to √n.
+
+Loop pattern:
+for i in range(2, int(√n)+1):
+ if n % i == 0 → not prime
+
+Edge cases:
+n ≤ 1 → not prime
+2 → prime
+Even numbers > 2 → not prime
+
+Time Complexity: O(√n)
+
+Common mistake:
+Loop limit (i*i <= n) is NOT divisor check.
+Divisor check is (n % i == 0).
+
+---
+
+# 🧠 What You Actually Learned About Yourself
+
+1. Tum code likh sakte ho.
+2. Tum logic ko galat jagah apply kar dete ho.
+3. Tumhari biggest growth need hai → conceptual separation.
+
+Ye weakness nahi hai. Ye training phase hai.
+
+---
+
+# 🎯 Final Deep Check Question
+
+Agar n = 97
+
+√97 ≈ 9.8
+
+To kaun kaun se i check karoge?
+
+Aur agar 2 se 9 tak koi divisor nahi mila
+to kya 97 prime hai?
+
+Reason ke saath bolo 💪
