@@ -187,3 +187,105 @@ Checklist for every problem:
 - Is work happening in down phase or up phase?
 - What does base case return?
 ---
+
+
+
+
+
+
+
+
+
+
+**LeetCode FREE questions**
+
+🟥 Must Revise (Very Important)
+🟧 Important
+🟨 Good Practice
+🟩 Optional (After confidence)
+
+---
+
+# 🟥 MUST REVISE (Foundation Strong Karne Ke Liye)
+
+1️⃣ **509. Fibonacci Number**
+→ Classic recursion + exponential tree samajhne ke liye
+
+2️⃣ **70. Climbing Stairs**
+→ Fibonacci pattern detect karna seekho
+
+3️⃣ **344. Reverse String**
+→ Two pointer + recursion combination
+
+4️⃣ **206. Reverse Linked List**
+→ Interview favourite recursion question
+
+5️⃣ **21. Merge Two Sorted Lists**
+→ Real recursive thinking develop karta hai
+
+---
+
+# 🟧 IMPORTANT (Pattern Recognition)
+
+6️⃣ **231. Power of Two**
+→ Simple base case clarity
+
+7️⃣ **50. Pow(x, n)**
+→ Fast recursion thinking (divide & conquer intro)
+
+8️⃣ **104. Maximum Depth of Binary Tree**
+→ Tree recursion ka entry point
+
+9️⃣ **226. Invert Binary Tree**
+→ Recursive swapping (tree version of reverse array)
+
+---
+
+# 🟨 GOOD PRACTICE (Logic Stretch)
+
+🔟 **101. Symmetric Tree**
+→ Two side recursive comparison
+
+1️⃣1️⃣ **112. Path Sum**
+→ Recursive decision making
+
+1️⃣2️⃣ **404. Sum of Left Leaves**
+→ Condition + recursion combination
+
+---
+
+# 🟩 OPTIONAL (After Confidence)
+
+1️⃣3️⃣ **24. Swap Nodes in Pairs**
+→ Linked list recursion tricky but good
+
+1️⃣4️⃣ **95. Unique Binary Search Trees II**
+→ Advanced recursion (skip for now)
+
+---
+
+# 🎯 How You Should Practice
+
+For each question:
+
+1. First solve using brute logic
+2. Then recursive thinking
+3. Draw recursion tree
+4. Identify:
+
+   * Base case
+   * Reduction
+   * Work position
+   * Time complexity shape
+
+---
+
+If I had to choose TOP 5 for placement revision:
+
+1. Fibonacci
+2. Climbing Stairs
+3. Reverse Linked List
+4. Maximum Depth of Binary Tree
+5. Merge Two Sorted Lists
+
+---
