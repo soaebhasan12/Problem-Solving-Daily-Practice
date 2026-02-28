@@ -1,0 +1,112 @@
+
+# 🔴 Fibonacci – Plain Recursion (Exponential)
+
+## 🧠 Structure Insight
+
+F(n) = F(n-1) + F(n-2)
+
+Har call 2 branches banata hai.
+
+Tree shape → Binary tree
+Same subproblem multiple jagah repeat hota hai.
+
+Example:
+F(5) me F(3) baar-baar calculate hota hai.
+
+---
+
+## 🚨 Core Problem
+
+Overlapping Subproblems.
+
+Same state multiple times compute hoti hai.
+
+---
+
+## ⏳ Time Complexity
+
+Exponential (≈ 2ⁿ)
+
+Kyuki har level pe nodes double ho rahe hain.
+
+---
+
+## 🧠 Memory Pattern
+
+* Base case zaroori
+* Down phase me tree build
+* Up phase me calculation
+
+---
+
+# 🟢 Fibonacci – Memoization (Optimized Recursion)
+
+## 🧠 Core Insight
+
+Har unique n sirf ek baar compute karo.
+
+Store result in persistent storage (dictionary).
+
+Before computing:
+Always check if already stored.
+
+---
+
+## 🧠 Structural Change
+
+Tree → DAG (Directed Acyclic Graph)
+
+Repeated branches collapse ho jate hain.
+
+---
+
+## ⏳ Time Complexity
+
+Linear (O(n))
+
+Kyuki total unique states = n.
+
+---
+
+## 🧠 Golden Memoization Pattern
+
+1️⃣ Check storage
+2️⃣ If exists → return
+3️⃣ Else compute
+4️⃣ Store
+5️⃣ Return
+
+---
+
+# 🔥 Most Important Comparison
+
+| Concept       | Plain Recursion | Memoization |
+| ------------- | --------------- | ----------- |
+| Tree Shape    | Binary Tree     | DAG         |
+| Repeated Work | Yes             | No          |
+| Time          | Exponential     | Linear      |
+| Storage       | None            | Dictionary  |
+
+---
+
+# 🎯 Lifetime Memory Line
+
+Whenever recursion has:
+
+✔ Multiple branches
+✔ Same state repeating
+
+→ Think DP
+→ Think Memoization
+
+---
+
+Agar recursion tree me same number repeat ho raha hai
+toh exponential hone wala hai.
+
+Agar har number sirf ek baar compute ho raha hai
+toh linear hone wala hai.
+
+---
+
+Ye Fibonacci ka real lesson hai. 💪
