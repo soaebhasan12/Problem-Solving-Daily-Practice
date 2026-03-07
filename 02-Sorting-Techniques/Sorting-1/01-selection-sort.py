@@ -1,4 +1,4 @@
-# Selection Sort
+# Selection Sort Problem
 
 """
 Given an array of integers nums, sort the array in non-decreasing order using the selection sort algorithm and return the sorted array.
