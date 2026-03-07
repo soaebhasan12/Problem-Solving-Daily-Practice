@@ -164,10 +164,10 @@ Quick Sort
 
 # 🔟 Common Beginner Mistakes
 
-1️⃣ wrong inner loop range
-2️⃣ swap inside inner loop
-3️⃣ comparing `nums[j+1]`
-4️⃣ wrong `min_index` initialization
+* 1️⃣ wrong inner loop range
+* 2️⃣ swap inside inner loop
+* 3️⃣ comparing `nums[j+1]`
+* 4️⃣ wrong `min_index` initialization
 
 Correct pattern:
 
@@ -183,10 +183,10 @@ swap after inner loop
 
 During solving this problem:
 
-1️⃣ Loop boundary mistakes (`len(nums)-1`)
-2️⃣ Index confusion (`j+1`)
-3️⃣ Swap timing confusion
-4️⃣ Missing minimum tracking variable
+* 1️⃣ Loop boundary mistakes (`len(nums)-1`)
+* 2️⃣ Index confusion (`j+1`)
+* 3️⃣ Swap timing confusion
+* 4️⃣ Missing minimum tracking variable
 
 These are **normal beginner DSA mistakes**.
 
