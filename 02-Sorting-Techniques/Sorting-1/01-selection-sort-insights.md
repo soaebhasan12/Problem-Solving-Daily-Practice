@@ -179,7 +179,7 @@ swap after inner loop
 
 ---
 
-# 🧠 Your Personal Weak Points (Observed)
+# 🧠 Weak Points (Observed)
 
 During solving this problem:
 
