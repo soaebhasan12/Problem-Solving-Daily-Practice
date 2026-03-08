@@ -12,6 +12,7 @@ This repository contains my learning journey, including practice codes, concept 
 
 ###  [04 - `Sorting Techniques`]()
 * ### [A - `Sorting-I`](https://chatgpt.com/share/69ad247d-96e0-8005-8828-117ceb00f92e)
+* ### [B - `Sorting-I`]()
 
 
 <!-- DSA Prompt -->
