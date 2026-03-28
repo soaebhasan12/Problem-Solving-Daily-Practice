@@ -1,6 +1,6 @@
 ---
 
-# 📝 `Left Rotate By One Insight` (Concept Focus 🚀)
+# 📝 `Left Rotate By One Insight`
 
 ---
 
