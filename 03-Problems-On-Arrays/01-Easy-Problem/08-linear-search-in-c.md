@@ -1,4 +1,4 @@
-# 📝 `Linear Search Insight`
+# 📝 `Linear Search Insights`
 
 ---
 
