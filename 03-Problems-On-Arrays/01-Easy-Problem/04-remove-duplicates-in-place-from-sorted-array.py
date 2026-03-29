@@ -39,7 +39,7 @@ class Solution:
       
       for j in range(1, n):
         if nums[j] != nums[i]:
-          i = i + 2
+          i = i + 1
           nums[i] = nums[j]
         
       return i + 1
