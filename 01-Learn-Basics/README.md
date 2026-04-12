@@ -1,7 +1,21 @@
-# Links for Deep and Better Understanding of the Concepts.
+# Weekly Must-Revise Problems
 
-###  [01 - `Basic Maths`](https://chatgpt.com/share/699909e1-a2fc-8005-8636-bcefdf8f4bd8)
+1. [Basic Maths](https://takeuforward.org/dsa/strivers-a2z-sheet-learn-dsa-a-to-z)
+  - [Reverse number](https://takeuforward.org/plus/dsa/problems/reverse-a-number)
+  - [Palindrome number](https://takeuforward.org/plus/dsa/problems/palindrome-number)
+  - [GCD](https://takeuforward.org/plus/dsa/problems/gcd-of-two-numbers)
+  - [Prime number](https://takeuforward.org/plus/dsa/problems/gcd-of-two-numbers)
+  - [Divisors](https://takeuforward.org/plus/dsa/problems/gcd-of-two-numbers)
 
-###  [02 - `Basic Recursion`](https://chatgpt.com/share/69ad012c-c3f8-8005-a223-43693a6cf4ef)
+2. [Basic Recursion](https://takeuforward.org/dsa/strivers-a2z-sheet-learn-dsa-a-to-z)
+  - [Print 1 to N](https://takeuforward.org/plus/dsa/problems/print-1-to-n-using-recursion)
+  - [Print N to 1](https://takeuforward.org/plus/dsa/problems/print-n-to-1-using-recursion)
+  - [Sum of First N Numbers](https://takeuforward.org/plus/dsa/problems/sum-of-first-n-numbers)
+  - [Factorial](https://takeuforward.org/plus/dsa/problems/factorial-of-a-given-number-i)
+  - [Reverse an array](https://takeuforward.org/plus/dsa/problems/reverse-an-array)
+  - [Palindrome string](https://takeuforward.org/plus/dsa/problems/check-if-string-is-palindrome-or-not-)
+  - [Fibonacci](https://takeuforward.org/plus/dsa/problems/fibonacci-number)
 
-###  [03 - `Basic Hashing`](https://chatgpt.com/share/69ad016e-bb8c-8005-8825-36f98d019cbb)
+3. [Basic Hashing](https://takeuforward.org/dsa/strivers-a2z-sheet-learn-dsa-a-to-z)
+  - [Frequency of elements](https://takeuforward.org/plus/dsa/problems/counting-frequencies-of-array-elements)
+  - [Highest frequency element](https://takeuforward.org/plus/dsa/problems/highest-occurring-element-in-an-array)
