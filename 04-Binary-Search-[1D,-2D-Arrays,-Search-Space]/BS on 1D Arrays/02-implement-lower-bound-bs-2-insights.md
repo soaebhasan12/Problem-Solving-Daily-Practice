@@ -1,0 +1,1 @@
+# Refer to this [Link](https://github.com/soaebhasan12/Striver-A2Z-Daily-Practice/blob/main/04-Binary-Search-%5B1D%2C-2D-Arrays%2C-Search-Space%5D/BS%20on%201D%20Arrays/02-03-04-Lower-Upper-Bound-SearchInsert-Insights.md) 
