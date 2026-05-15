@@ -24,3 +24,58 @@ Output: 23
 
 
 
+class Solution:
+    def minEatingSpeed(self, piles, h: int) -> int:
+    ## APPROACH - 1 (BEATS 38%)
+        low = 1
+        high = max(piles)
+
+        while low < high:
+            mid = (low + high) // 2
+
+            hours_needed = self.CalculateHours(piles, mid)
+
+            if hours_needed <= h:
+                high = mid
+            else:                   # hours_needed > h
+                low = mid + 1
+        
+        return low
+    
+    def CalculateHours(self, piles, speed):
+        total_hours = 0
+        for pile in piles:
+            hours = (pile + speed - 1) // speed
+            total_hours += hours
+        
+        return total_hours
+
+
+
+    ## APPROACH - 2 (BEATS 18%)
+        # l = 1
+        # ans = float('inf')
+        # r = max(piles)
+
+        # while l <= r:
+        #     mid = l + (r - l) // 2
+        #     k = mid
+        #     cnt = 0
+
+        #     for a in piles:
+        #         if k >= a:
+        #             cnt += 1
+        #         else:
+        #             if a % k != 0:
+        #                 cnt = cnt + 1 + (a // k)
+        #             else:
+        #                 cnt += (a // k)
+
+        #     if cnt > h:
+        #         l = mid + 1
+
+        #     if cnt <= h:
+        #         ans = min(ans, k)
+        #         r = mid - 1
+
+        # return ans
